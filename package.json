@@ -13,7 +13,8 @@
     "preview": "vite preview",
     "electron:dev": "concurrently \"npm run dev\" \"electron .\"",
     "electron:build": "npm run build && electron-builder",
-    "electron:build:portable-zip": "npm run build && electron-builder --win zip --publish never",
+    "electron:build:portable-zip": "npm run build && electron-builder --mac zip --publish never",
+    "electron:build:portable-zip-win": "npm run build && electron-builder --win zip --publish never",
     "build:dir": "npm run build && electron-builder --dir",
     "build:pack": "electron-builder --prepackaged dist_portable/win-unpacked",
     "test": "vitest run",
@@ -34,6 +35,12 @@
       "electron/**/*",
       "package.json"
     ],
+    "mac": {
+      "target": [
+        "zip"
+      ],
+      "category": "public.app-category.graphics-design"
+    },
     "win": {
       "target": [
         "nsis",

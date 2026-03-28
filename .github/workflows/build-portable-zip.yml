@@ -1,4 +1,4 @@
-# Windows 便携版：仅打 zip，产物在 Actions 运行页的 Artifacts 中下载
+# macOS 便携版：zip 内含 .app，解压后可直接运行（未签名需在系统设置中允许或右键打开）
 name: 构建便携版 ZIP
 
 on:
@@ -8,11 +8,11 @@ on:
 
 jobs:
   portable-zip:
-    runs-on: windows-latest
+    runs-on: macos-latest
     permissions:
       contents: read
     env:
-      # CI 上无代码签名证书时跳过签名，避免 electron-builder 报错或卡住
+      # CI 无 Apple 开发者证书时不自动查找签名身份，生成未签名的 .app
       CSC_IDENTITY_AUTO_DISCOVERY: false
 
     steps:
@@ -28,12 +28,12 @@ jobs:
       - name: 安装依赖
         run: npm ci
 
-      - name: 构建前端并打包 zip
+      - name: 构建前端并打包 macOS zip
         run: npm run electron:build:portable-zip
 
       - name: 上传便携版 zip
         uses: actions/upload-artifact@v4
         with:
-          name: 色彩工坊-便携版-win-zip
+          name: 色彩工坊-便携版-macos-zip
           path: dist_portable/*.zip
           if-no-files-found: error
