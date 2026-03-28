@@ -1,4 +1,4 @@
-# macOS 便携版：分别产出 Apple Silicon (arm64) 与 Intel (x64) 两个 zip
+# macOS 便携版：两个独立 Job，分别产出 Apple Silicon (arm64) 与 Intel (x64) zip
 name: 构建便携版 ZIP
 
 on:
@@ -6,45 +6,48 @@ on:
   push:
     branches: [main]
 
+# 矩阵在部分界面会合成一个「portable-zip」；拆成两个 job 侧栏与图里都会各显示一条
 jobs:
-  portable-zip:
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - arch: arm64
-            label: Apple-Silicon-ARM64
-          - arch: x64
-            label: Intel-x64
+  macos-arm64:
+    name: macOS Apple Silicon (arm64)
     runs-on: macos-latest
     permissions:
       contents: read
     env:
       CSC_IDENTITY_AUTO_DISCOVERY: false
-
     steps:
-      - name: 检出仓库
-        uses: actions/checkout@v4
-
-      - name: 使用 Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: npm
-
-      - name: 安装依赖
-        run: npm ci
-
-      - name: 构建前端
-        run: npm run build
-
-      - name: 打包 macOS zip（${{ matrix.label }}）
-        run: npx electron-builder --mac zip --${{ matrix.arch }} --publish never
-
-      - name: 上传便携版 zip
-        uses: actions/upload-artifact@v4
+      - run: npm ci
+      - run: npm run build
+      - run: npx electron-builder --mac zip --arm64 --publish never
+      - uses: actions/upload-artifact@v4
         with:
-          # 产物名仅 ASCII，符合 GitHub Artifacts 命名规则；zip 内 .app 仍为「色彩工坊」
-          name: mac-colortools-macos-${{ matrix.label }}
+          name: mac-colortools-macos-Apple-Silicon-ARM64
+          path: dist_portable/*.zip
+          if-no-files-found: error
+
+  macos-intel:
+    name: macOS Intel (x64)
+    runs-on: macos-latest
+    permissions:
+      contents: read
+    env:
+      CSC_IDENTITY_AUTO_DISCOVERY: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npx electron-builder --mac zip --x64 --publish never
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mac-colortools-macos-Intel-x64
           path: dist_portable/*.zip
           if-no-files-found: error
