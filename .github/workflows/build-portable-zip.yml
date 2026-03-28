@@ -1,4 +1,4 @@
-# macOS 便携版：zip 内含 .app，解压后可直接运行（未签名需在系统设置中允许或右键打开）
+# macOS 便携版：分别产出 Apple Silicon (arm64) 与 Intel (x64) 两个 zip
 name: 构建便携版 ZIP
 
 on:
@@ -8,11 +8,18 @@ on:
 
 jobs:
   portable-zip:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - arch: arm64
+            label: Apple-Silicon-ARM64
+          - arch: x64
+            label: Intel-x64
     runs-on: macos-latest
     permissions:
       contents: read
     env:
-      # CI 无 Apple 开发者证书时不自动查找签名身份，生成未签名的 .app
       CSC_IDENTITY_AUTO_DISCOVERY: false
 
     steps:
@@ -28,12 +35,16 @@ jobs:
       - name: 安装依赖
         run: npm ci
 
-      - name: 构建前端并打包 macOS zip
-        run: npm run electron:build:portable-zip
+      - name: 构建前端
+        run: npm run build
+
+      - name: 打包 macOS zip（${{ matrix.label }}）
+        run: npx electron-builder --mac zip --${{ matrix.arch }} --publish never
 
       - name: 上传便携版 zip
         uses: actions/upload-artifact@v4
         with:
-          name: 色彩工坊-便携版-macos-zip
+          # 产物名仅 ASCII，符合 GitHub Artifacts 命名规则；zip 内 .app 仍为「色彩工坊」
+          name: mac-colortools-macos-${{ matrix.label }}
           path: dist_portable/*.zip
           if-no-files-found: error
