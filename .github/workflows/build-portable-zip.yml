@@ -1,0 +1,39 @@
+# Windows 便携版：仅打 zip，产物在 Actions 运行页的 Artifacts 中下载
+name: 构建便携版 ZIP
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  portable-zip:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+    env:
+      # CI 上无代码签名证书时跳过签名，避免 electron-builder 报错或卡住
+      CSC_IDENTITY_AUTO_DISCOVERY: false
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 使用 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 构建前端并打包 zip
+        run: npm run electron:build:portable-zip
+
+      - name: 上传便携版 zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: 色彩工坊-便携版-win-zip
+          path: dist_portable/*.zip
+          if-no-files-found: error
