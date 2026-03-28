@@ -1,0 +1,462 @@
+{
+  "common.colorsCount": {
+    "en": "{{count}} COLORS",
+    "zhCN": "{{count}} 个颜色"
+  },
+  "traditional.chinaAboutTitle": {
+    "en": "About Chinese traditional colors",
+    "zhCN": "关于中国传统色介绍:"
+  },
+  "traditional.chinaAbout1": {
+    "en": "1. Chinese traditional color culture is rich and has deep historical heritage.",
+    "zhCN": "1、中国的传统色彩文化丰富多彩，具有深厚的文化底蕴和历史传承。"
+  },
+  "traditional.chinaAbout2": {
+    "en": "2. Below are some common colors in Chinese culture and what they symbolize:",
+    "zhCN": "2、以下是一些中国传统文化中常见的颜色及其象征意义："
+  },
+  "traditional.chinaAboutItem1": {
+    "en": "(1) Red: joy, luck, passion and prosperity; widely used in festivals and important occasions.",
+    "zhCN": "(1)、红色：在中国文化中，红色象征着喜庆、幸运、热情和繁荣，在传统节日和重要场合常被使用。"
+  },
+  "traditional.chinaAboutItem2": {
+    "en": "(2) Yellow: imperial color in ancient China; symbolizes authority, nobility and wealth.",
+    "zhCN": "(2)、黄色：黄色在中国古代是皇家的专用色，象征着权威、尊贵和财富。"
+  },
+  "traditional.chinaAboutItem3": {
+    "en": "(3) Blue: sometimes associated with longevity and eternity; also symbolizes sky and calm.",
+    "zhCN": "(3)、蓝色：蓝色有时与长寿和永恒相关联，也是天空和宁静的象征。"
+  },
+  "traditional.chinaAboutItem4": {
+    "en": "(4) Green: linked to spring, renewal and hope; also represents growth and vitality.",
+    "zhCN": "(4)、绿色：绿色通常与春季、新生和希望联系在一起，也代表着生长和生命力。"
+  },
+  "traditional.chinaAboutItem5": {
+    "en": "(5) Black: sometimes associated with water, the north and cold; also used to express solemnity and formality.",
+    "zhCN": "(5)、黑色：黑色有时与水分、北方和寒冷相关联，也用于表达严肃和正式。"
+  },
+  "traditional.chinaAboutItem6": {
+    "en": "(6) White: linked to purity and mourning; historically used to express grief for the deceased.",
+    "zhCN": "(6)、白色：白色通常与纯洁、清白和丧事联系在一起，也用于表达对死者的哀悼。"
+  },
+  "traditional.chinaAboutItem7": {
+    "en": "(7) Purple: symbolizes nobility and elegance; sometimes associated with mystery and sanctity.",
+    "zhCN": "(7)、紫色：紫色象征着高贵和高雅，有时也与神秘和神圣相关。"
+  },
+  "traditional.chinaAboutItem8": {
+    "en": "(8) Gold: symbolizes wealth, prosperity and status; often used for decoration.",
+    "zhCN": "(8)、金色：金色代表着财富、繁荣和地位，常用于装饰以显示富丽堂皇。"
+  },
+  "traditional.chinaAboutItem9": {
+    "en": "(9) Silver: similar to gold in symbolism, but usually softer and more restrained.",
+    "zhCN": "(9)、银色：银色与金色相似，也象征着财富，但通常更为柔和和内敛。"
+  },
+  "traditional.chinaAbout3": {
+    "en": "3. Traditional colors appear in painting, architecture, clothing, literature and daily life, and are an important part of Chinese culture.",
+    "zhCN": "3、中国的传统色彩不仅体现在绘画、建筑、服饰等方面，也在诗词、文学和日常生活中有着广泛的应用，是中国文化的重要组成部分。"
+  },
+  "traditional.japanCategoryDefault": {
+    "en": "Nippon colors",
+    "zhCN": "和色大观"
+  },
+  "traditional.japanTitle": {
+    "en": "Japanese traditional colors (Washoku)",
+    "zhCN": "日本传统色彩 (和色)"
+  },
+  "traditional.japanAboutTitle": {
+    "en": "About Japanese traditional colors (Nippon Colors)",
+    "zhCN": "关于日本传统色 (Nippon Colors):"
+  },
+  "traditional.japanAbout1": {
+    "en": "1. Japanese traditional colors are colors long used in traditional arts and crafts such as painting, dyeing and weaving.",
+    "zhCN": "1、日本传统色是指在日本绘画、染色、织造等传统艺术和工艺中长期使用的颜色。"
+  },
+  "traditional.japanAbout2": {
+    "en": "2. Names often come from nature (flowers, birds, wind, moon) and objects from daily life:",
+    "zhCN": "2、这些颜色的命名通常源自自然界（花、鸟、风、月）以及日常生活中的物品："
+  },
+  "traditional.japanAboutItem1": {
+    "en": "(1) Sakura-iro: symbolizes cherry blossoms in spring; a core of Japanese aesthetics.",
+    "zhCN": "(1)、樱色 (Sakura-iro)：象征着春天的樱花，是日本美学的核心。"
+  },
+  "traditional.japanAboutItem2": {
+    "en": "(2) Akane-iro: an ancient red dye; often used to describe sunset hues.",
+    "zhCN": "(2)、茜色 (Akane-iro)：古老的红色染料，常用于描述夕阳的颜色。"
+  },
+  "traditional.japanAboutItem3": {
+    "en": "(3) Ruri-iro: a deep blue; symbolizes gemstones and the sky.",
+    "zhCN": "(3)、瑠璃色 (Ruri-iro)：深邃的蓝色，象征着宝石和天空。"
+  },
+  "traditional.japanAboutItem4": {
+    "en": "(4) Matcha-iro: typical tea-ceremony color reflecting the beauty of wabi-sabi.",
+    "zhCN": "(4)、抹茶色 (Matcha-iro)：典型的日本茶道色彩，体现了“侘寂”之美。"
+  },
+  "traditional.japanAbout3": {
+    "en": "3. These colors are not only visual enjoyment but also carry subtle emotions about the changing seasons—each has a story of season, literature or history.",
+    "zhCN": "3、日本传统色不仅是视觉的享受，更承载着大和民族对四季流转的细腻情感。每一道色彩背后，都有一段关于季节、文学或历史的动人故事。"
+  },
+  "pickerScreen.recent": {
+    "en": "Recent pick",
+    "zhCN": "最近拾取"
+  },
+  "pickerScreen.tipsTitle": {
+    "en": "Tips",
+    "zhCN": "💡 小贴士"
+  },
+  "pickerScreen.tipsDesc": {
+    "en": "The EyeDropper API lets you pick colors across your desktop. In the Electron client, it can seamlessly pick from anywhere on screen. After picking, click the value to copy it to clipboard.",
+    "zhCN": "EyeDropper API 允许您在整个桌面范围内拾取颜色。如果您正在运行 Electron 客户端，它将无缝支持屏幕任何角落的色彩提取。拾取后，点击色值即可复制到剪贴板。"
+  },
+  "queryConvert.savedToPalette": {
+    "en": "Current color saved, opening palette manager",
+    "zhCN": "已记录当前颜色，正在跳转到调色板管理"
+  },
+  "queryConvert.unknownName": {
+    "en": "Unknown",
+    "zhCN": "未知"
+  },
+  "queryConvert.aboutTitle": {
+    "en": "About color conversion:",
+    "zhCN": "关于颜色值转换介绍:"
+  },
+  "queryConvert.about1": {
+    "en": "1. Convert a single color seamlessly across common color spaces such as HEX, RGB, HSL and HSV.",
+    "zhCN": "1、此工具可以将单一颜色值在多种常用色彩空间（如 HEX、RGB、HSL、HSV）之间进行无缝转换。"
+  },
+  "queryConvert.about2": {
+    "en": "2. Enter a HEX value directly or use the picker to sample a color in real time, and the results update immediately.",
+    "zhCN": "2、您可以直接在输入框中输入十六进制色值，或使用颜色选择器进行实时选取，转换结果将即时呈现。"
+  },
+  "queryConvert.about3": {
+    "en": "3. HSV normalization displays HSV values in a 0 to 1 range for graphics processing and math workflows.",
+    "zhCN": "3、HSV 归一化转换支持将 HSV 值的显示范围归一化为 0 到 1 之间，方便图形处理和数学计算。"
+  },
+  "queryConvert.about4": {
+    "en": "4. RGB/HEX conversion provides intuitive R, G and B inputs (0-255) and quick two-way conversion with HEX.",
+    "zhCN": "4、RGB/16进制转换提供直观的 R、G、B 分量输入方式（0-255），并与 16 进制色值进行快速互转。"
+  },
+  "queryConvert.about5": {
+    "en": "5. RGB/CMYK conversion supports bidirectional conversion between RGB and the CMYK model commonly used in print.",
+    "zhCN": "5、RGB/CMYK 转换支持 RGB 与印刷常用的 CMYK 模式之间的双向转换，方便设计稿的色彩校对。"
+  },
+  "queryConvert.about6": {
+    "en": "6. HSV/CMYK conversion supports direct conversion between normalized HSV and CMYK for more advanced design scenarios.",
+    "zhCN": "6、HSV/CMYK 转换支持归一化 HSV 与 CMYK 之间的直接互转，满足更多专业设计场景的需求。"
+  },
+  "queryConvert.about7": {
+    "en": "7. RGB/HSV conversion offers a straightforward interface between standard RGB values and normalized HSV.",
+    "zhCN": "7、RGB/HSV 转换提供标准的 RGB 分量与归一化 HSV 之间的直观转换界面。"
+  },
+  "queryConvert.about8": {
+    "en": "8. CMYK/HEX conversion helps map print-oriented CMYK values to web-oriented HEX colors quickly.",
+    "zhCN": "8、CMYK/16进制转换实现印刷颜色模型与网页颜色的快速对应转换。"
+  },
+  "queryConvert.about9": {
+    "en": "9. Named color recognition is supported when available, and each result can be copied with one click.",
+    "zhCN": "9、支持色彩命名识别（如可用时显示对应的英文名称），并提供一键复制功能，方便在设计和开发中使用。"
+  },
+  "queryConvert.tabs.common": {
+    "en": "Common formats",
+    "zhCN": "常用格式"
+  },
+  "queryConvert.tabs.hsvNorm": {
+    "en": "HSV normalized",
+    "zhCN": "HSV 归一化"
+  },
+  "queryConvert.tabs.rgbHex": {
+    "en": "RGB/HEX",
+    "zhCN": "RGB/16进制"
+  },
+  "queryConvert.tabs.rgbCmyk": {
+    "en": "RGB/CMYK",
+    "zhCN": "RGB/CMYK"
+  },
+  "queryConvert.tabs.hsvCmyk": {
+    "en": "HSV/CMYK",
+    "zhCN": "HSV/CMYK"
+  },
+  "queryConvert.tabs.rgbHsv": {
+    "en": "RGB/HSV",
+    "zhCN": "RGB/HSV"
+  },
+  "queryConvert.tabs.cmykHex": {
+    "en": "CMYK/HEX",
+    "zhCN": "CMYK/16进制"
+  },
+  "queryConvert.labels.red": {
+    "en": "Red (R:0-255)",
+    "zhCN": "红(R:0~255)"
+  },
+  "queryConvert.labels.green": {
+    "en": "Green (G:0-255)",
+    "zhCN": "绿(G:0~255)"
+  },
+  "queryConvert.labels.blue": {
+    "en": "Blue (B:0-255)",
+    "zhCN": "蓝(B:0~255)"
+  },
+  "queryConvert.labels.hexValue": {
+    "en": "HEX value",
+    "zhCN": "HEX 值"
+  },
+  "queryPicker.aboutTitle": {
+    "en": "About the color picker:",
+    "zhCN": "关于颜色选择器工具的介绍:"
+  },
+  "queryPicker.about1": {
+    "en": "1. Choose any color with the interactive color picker.",
+    "zhCN": "1、在颜色选择器中选择自己的颜色。"
+  },
+  "queryPicker.about2": {
+    "en": "2. After selecting a color, you can inspect the corresponding color values immediately.",
+    "zhCN": "2、颜色选中后，可以查看与选中颜色对应的颜色值。"
+  },
+  "queryPicker.about3": {
+    "en": "3. This tool also supports alpha/transparency.",
+    "zhCN": "3、另外，此工具也支持颜色的透明值。"
+  },
+  "queryPicker.about4": {
+    "en": "4. Note: colors may look slightly different because of individual monitor limitations.",
+    "zhCN": "4、注意：由于个人显示器的限制，颜色可能会出现色差。"
+  },
+  "queryPicker.luminance": {
+    "en": "Luminance",
+    "zhCN": "亮度系数"
+  },
+  "queryPicker.brightness": {
+    "en": "Brightness",
+    "zhCN": "明度"
+  },
+  "queryGradients.categoryCss": {
+    "en": "CSS gradients",
+    "zhCN": "CSS 渐变"
+  },
+  "queryGradients.categoryFresh": {
+    "en": "Fresh",
+    "zhCN": "小清新"
+  },
+  "queryGradients.categoryElegant": {
+    "en": "Elegant",
+    "zhCN": "优雅风"
+  },
+  "queryGradients.countHint": {
+    "en": "Total {{total}} presets, current category {{current}}",
+    "zhCN": "共收录 {{total}} 种方案，当前分类 {{current}} 种"
+  },
+  "queryGradients.copyColorTitle": {
+    "en": "Copy color: {{value}}",
+    "zhCN": "复制颜色: {{value}}"
+  },
+  "queryGradients.aboutTitle": {
+    "en": "About gradients:",
+    "zhCN": "关于渐变色大全介绍:"
+  },
+  "queryGradients.about1": {
+    "en": "1. This tool collects curated linear gradients in three categories: CSS, Fresh and Elegant.",
+    "zhCN": "1、此工具收录了多种精心设计的线性渐变方案，分为 CSS 渐变、小清新、优雅风三大类。"
+  },
+  "queryGradients.about2": {
+    "en": "2. Each card shows its original colors and visual result. Filter by category to find what you like quickly.",
+    "zhCN": "2、每个渐变卡片都清晰展示了其包含的原始色值和视觉效果，您可以根据分类快速筛选出心仪的色彩组合。"
+  },
+  "queryGradients.about3": {
+    "en": "3. In Fresh and Elegant, click the small swatches to copy HEX, and click the preview to copy CSS.",
+    "zhCN": "3、小清新及优雅风分类支持点击下方小色块直接复制色值，点击预览区域可复制 CSS 代码。"
+  },
+  "queryGradients.about4": {
+    "en": "4. In CSS category, click \"Copy CSS\" to get the full CSS code for your design or web development.",
+    "zhCN": "4、CSS 渐变分类点击“复制 CSS”栏即可一键获取完整的 CSS 代码，轻松应用到您的 Web 开发或设计工作中。"
+  },
+  "queryWebsafe.clickCopyHex": {
+    "en": "Click to copy HEX: {{value}}",
+    "zhCN": "点击复制 HEX: {{value}}"
+  },
+  "queryWebsafe.clickCopyRgb": {
+    "en": "Click to copy RGB: {{value}}",
+    "zhCN": "点击复制 RGB: {{value}}"
+  },
+  "queryWebsafe.aboutTitle": {
+    "en": "About Web Safe Colors",
+    "zhCN": "关于 Web 安全色 (Web Safe Colors)"
+  },
+  "queryWebsafe.aboutDesc": {
+    "en": "Web safe colors consist of 216 colors that stayed consistent across monitors in the 256-color era. While modern displays support millions of colors, web safe colors are still useful for ultra-compatibility scenarios or as a baseline palette reference. Click the value blocks to copy HEX or RGB.",
+    "zhCN": "Web 安全色由 216 种颜色组成，这些颜色在 256 色显卡时代的各种显示器上都能保持一致。虽然现代显示器已支持数百万种颜色，但 Web 安全色仍常用于确保极高兼容性的场景，或作为设计时的基础调色盘参考。本工具支持点击色值块快速复制对应的 HEX 或 RGB 格式。"
+  },
+  "queryRgb.searchPlaceholder": {
+    "en": "Enter HEX or RGB",
+    "zhCN": "输入十六进制颜色或RGB颜色"
+  },
+  "queryRgb.search": {
+    "en": "Search",
+    "zhCN": "查询"
+  },
+  "queryRgb.clearSearch": {
+    "en": "Clear search results and return to table",
+    "zhCN": "清除搜索结果，返回对照表"
+  },
+  "queryRgb.aboutTitle": {
+    "en": "About RGB and HEX colors:",
+    "zhCN": "关于RGB颜色与十六进制颜色介绍:"
+  },
+  "queryRgb.about1": {
+    "en": "1. RGB is a color model widely used in display technology; it represents colors by mixing red, green and blue.",
+    "zhCN": "1、RGB颜色是一种色彩模型，广泛应用于显示技术中，它通过红色、绿色和蓝色三种颜色的不同组合来表示各种颜色。"
+  },
+  "queryRgb.about2": {
+    "en": "2. HEX is based on RGB; it uses hexadecimal numbers to represent each channel intensity.",
+    "zhCN": "2、十六进制颜色值是基于RGB颜色模型的，使用十六进制数来表示每种颜色的强度。"
+  },
+  "queryRgb.about3": {
+    "en": "3. Hex digits range from 0 to F, where A–F represent 10–15 in decimal.",
+    "zhCN": "3、十六进制数可以是从0到F的任意一个值，其中A到F代表了10到15的十进制数值。"
+  },
+  "queryRgb.about4": {
+    "en": "4. RGB and HEX can be converted to each other; refer to the table below.",
+    "zhCN": "4、RGB颜色与十六进制颜色是相互转换的，可以参考下面的表。"
+  },
+  "queryRgb.notFound": {
+    "en": "No matching colors found...",
+    "zhCN": "未找到相关颜色..."
+  },
+  "queryCmyk.aboutTitle": {
+    "en": "About CMYK/RGB:",
+    "zhCN": "关于CMYK/RBG介绍:"
+  },
+  "queryCmyk.about1": {
+    "en": "1. CMYK (Cyan, Magenta, Yellow, Black) is a four-color model used for printing.",
+    "zhCN": "1、CMYK（青色、品红色、黄色和黑色）是一种用于印刷的四色模型。"
+  },
+  "queryCmyk.about2": {
+    "en": "2. RGB (Red, Green, Blue) is an additive color model that mixes light to create colors.",
+    "zhCN": "2、RGB(Red, Green, Blue)是一种加色模型，它使用红色、绿色和蓝色三种原色光的混合来创建其他所有颜色。"
+  },
+  "queryCmyk.about3": {
+    "en": "3. This tool helps you quickly look up corresponding CMYK and RGB values for colors.",
+    "zhCN": "3、此工具可以清晰的查询CMYK与RGB相对应的颜色。"
+  },
+  "queryPalette.newPaletteName": {
+    "en": "Palette {{count}}",
+    "zhCN": "色板 {{count}}"
+  },
+  "queryPalette.create": {
+    "en": "New palette",
+    "zhCN": "新建色板"
+  },
+  "queryPalette.import": {
+    "en": "Import",
+    "zhCN": "导入"
+  },
+  "queryPalette.exportAll": {
+    "en": "Export all",
+    "zhCN": "导出全部"
+  },
+  "queryPalette.created": {
+    "en": "Palette created",
+    "zhCN": "已新建色板"
+  },
+  "queryPalette.updatedName": {
+    "en": "Palette name updated",
+    "zhCN": "已更新色板名称"
+  },
+  "queryPalette.enterOrPickColor": {
+    "en": "Please enter or pick a color",
+    "zhCN": "请输入或选择颜色"
+  },
+  "queryPalette.invalidColor": {
+    "en": "Invalid color value. Enter HEX / RGB, etc.",
+    "zhCN": "无效的颜色值，请输入 Hex / RGB 等"
+  },
+  "queryPalette.added": {
+    "en": "Added to palette",
+    "zhCN": "已加入色板"
+  },
+  "queryPalette.removed": {
+    "en": "Removed from palette",
+    "zhCN": "已移出色板"
+  },
+  "queryPalette.pickToAdd": {
+    "en": "Pick and add",
+    "zhCN": "选色加入"
+  },
+  "queryPalette.add": {
+    "en": "Add",
+    "zhCN": "添加"
+  },
+  "queryPalette.addCurrentPicked": {
+    "en": "Add current picked",
+    "zhCN": "加入当前拾取"
+  },
+  "queryPalette.inputPlaceholder": {
+    "en": "#000000 or RGB",
+    "zhCN": "#000000 或 RGB"
+  },
+  "queryPalette.exportedOne": {
+    "en": "Palette exported",
+    "zhCN": "已导出色板"
+  },
+  "queryPalette.exportedAll": {
+    "en": "All palettes exported",
+    "zhCN": "已导出全部色板"
+  },
+  "queryPalette.importedPaletteName": {
+    "en": "Imported palette",
+    "zhCN": "导入色板"
+  },
+  "queryPalette.noValidImport": {
+    "en": "No valid palette data found",
+    "zhCN": "未找到有效色板数据"
+  },
+  "queryPalette.importedCount": {
+    "en": "Imported {{count}} palettes",
+    "zhCN": "已导入 {{count}} 个色板"
+  },
+  "queryPalette.importFailed": {
+    "en": "Import failed. Please check JSON format",
+    "zhCN": "导入失败，请检查 JSON 格式"
+  },
+  "queryPalette.confirmDelete": {
+    "en": "Delete palette \"{{name}}\"?",
+    "zhCN": "确定删除色板「{{name}}」？"
+  },
+  "queryPalette.deleted": {
+    "en": "Palette deleted",
+    "zhCN": "已删除色板"
+  },
+  "queryPalette.clear": {
+    "en": "Clear",
+    "zhCN": "清除"
+  },
+  "queryReference.title": {
+    "en": "Color reference table",
+    "zhCN": "颜色对照表"
+  },
+  "queryReference.preview": {
+    "en": "Preview",
+    "zhCN": "预览"
+  },
+  "queryReference.name": {
+    "en": "Name",
+    "zhCN": "名称"
+  },
+  "queryReference.cmykApprox": {
+    "en": "CMYK (approx.)",
+    "zhCN": "CMYK (概算)"
+  },
+  "queryReference.aboutTitle": {
+    "en": "About the color reference table:",
+    "zhCN": "关于颜色对照表介绍:"
+  },
+  "queryReference.about1": {
+    "en": "1. This tool provides a reference table of common standard colors, including preview, name, HEX, RGB and approximate CMYK values.",
+    "zhCN": "1、此工具提供了一份常用标准色的详细参数对照表，涵盖了颜色的预览、名称、HEX、RGB 以及 CMYK 概算值。"
+  },
+  "queryReference.about2": {
+    "en": "2. You can quickly compare values across color spaces and use them as references between design tools and development environments.",
+    "zhCN": "2、您可以快速查阅基础色系的跨色彩空间数值，方便在不同的设计软件和开发环境之间进行参考和对齐。"
+  },
+  "queryReference.about3": {
+    "en": "3. Note: the CMYK values in the table are mathematical approximations for digital reference only. For professional printing, use actual print proofs.",
+    "zhCN": "3、特别提示：表中的 CMYK 值为数学换算值，仅供数字设计参考。在进行专业印刷制作时，请以实际打样效果为准。"
+  }
+}
